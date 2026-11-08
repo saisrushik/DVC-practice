@@ -8,4 +8,5 @@
     now gives error since the git is tracking the data/ folder,
     git rm -r --cached 'data' and commit - removes data folder from being tracked by git
 8. Again do dvc add data/ -> this will successfully creates the data.dvc and commit .gitignore and data.dvc to git
-9. 
+9. commit changes in dvc and push it -> dvc commit & dvc push 
+10. do git commit to mark this stage as first version of data
