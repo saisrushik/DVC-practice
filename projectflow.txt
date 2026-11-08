@@ -10,3 +10,5 @@
 8. Again do dvc add data/ -> this will successfully creates the data.dvc and commit .gitignore and data.dvc to git
 9. commit changes in dvc and push it -> dvc commit & dvc push 
 10. do git commit to mark this stage as first version of data
+11. do changes to mycode.py to append new row in data, and check the changes via dvc status
+12. dvc commit and dvc push 
